@@ -1,0 +1,65 @@
+.container{
+  text-align: center;
+  position: fixed;
+  width: 1300px;
+  top: 180px;
+  z-index: -1;
+}
+body{
+    background-color: rgb(165, 142, 185);
+}
+
+select{
+  width: 302px; /*largura do select*/
+  height: 205px; /*altura do select*/
+}
+
+input{
+  margin-top: 10px; /*margem superior para o botão */
+  padding: 5px 10px; /*preenchimento interno do botão */
+  background-color: rgb(194, 194, 224); /*cor de fundo do botão 8*/
+  color: black; /* cor de texto do botão */
+  cursor: pointer; /* cursor do mouse */
+  border-radius: 5px; /* borda arredondada do botão*/
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+body {
+  background-image: url('lun.jpg');
+
+}
+
+input[type="button"] {
+  display: block;
+  width: 400px;
+  padding: 16px;
+  margin-top: 10px;
+  background: linear-gradient aqua
+  color: rgb(255, 255, 255);
+  border:none 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 450px;
+  margin-top: 350px;
+}
+ .botão{
+
+  z-index: 1;
+ }
+ h3{
+  color: antiquewhite;
+  font-size: 40px;
+  text-align: center;
+ }
+ .musica{
+  color: aliceblue;
+  background-color: black;
+  border-radius: 2em;
+  height: 400px;
+  width:700px ;
+  font-size: 20px;
+  padding: 10px;
+ }
